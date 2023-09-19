@@ -11,4 +11,39 @@ img {
 
 body {
   font-family: "Jost", sans-serif;
+}
+
+.header {
+  max-width: 1750px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #141024;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 15px;
+  align-items: center;
+}
+
+.logo__img {
+  width: 228px;
+  height: 48px;
+}
+
+.nav {
+  display: flex;
+  gap: 40px;
+}
+
+.nav__link {
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.tel {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+  text-decoration: none;
 }/*# sourceMappingURL=style.css.map */
