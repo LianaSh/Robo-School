@@ -1,8 +1,10 @@
 .header {
   max-width: 1750px;
   width: 100%;
+  position: absolute;
+  z-index: 1;
   margin: 0 auto;
-  background-color: #141024;
+  // background-color: #141024;
   display: flex;
   justify-content: space-between;
 //   text-align: center;
