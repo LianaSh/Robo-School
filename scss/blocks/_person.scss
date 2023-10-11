@@ -1,0 +1,39 @@
+.person {
+    width: 100%;
+}
+
+.person__list {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 40px;
+    margin-top: 60px;
+}
+
+.person__card {
+    max-width: 360px;
+    width: 100%;
+}
+
+.person__img {
+    object-position: center;
+    object-fit: cover;
+}
+
+.person__info {
+    display: block;
+}
+
+.person__name {
+    color: #141024;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.person__subtitle {
+    color: rgba(20, 16, 36, 0.70);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}

@@ -3,13 +3,14 @@
     width: 100%;
     display: block;
     background-color: #F9F9F9;
-    margin: 120px auto 0;
+    margin: auto 0;
 }
 
 .information__title {
     color: #141024;
     font-size: 50px;
-    font-weight: 600; 
+    font-weight: 600;
+    padding-top: 100px; 
 }
 
 .information__desc {
@@ -21,12 +22,14 @@
 .information-card {
     margin-top: 60px;
     margin-bottom: 100px;
+    max-width: 360px;
 }
 
 .information-card__head {
     color: #141024;
     font-size: 24px;
     font-weight: 600;
+    padding-bottom: 20px;
 }
 
 .information-card__text {

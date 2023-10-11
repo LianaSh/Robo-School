@@ -1,5 +1,5 @@
 .info {
-    max-width: 1190px;
+    // max-width: 1190px;
     width: 100%;
     display: block;
     background-color: #FFFFFF;
@@ -15,14 +15,16 @@
 }
 
 .info__desc {
-    display: flex;
-    justify-content: space-between;
-    gap: 40px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    // justify-content: space-between;
+    gap: 30px;
 }
 
 .info-card {
     margin-top: 60px;
     margin-bottom: 120px;
+    max-width: 260px;
 }
 
 .info-card__head {

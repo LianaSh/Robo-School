@@ -136,7 +136,6 @@ button {
 }
 
 .info {
-  max-width: 1190px;
   width: 100%;
   display: block;
   background-color: #FFFFFF;
@@ -151,14 +150,15 @@ button {
 }
 
 .info__desc {
-  display: flex;
-  justify-content: space-between;
-  gap: 40px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
 }
 
 .info-card {
   margin-top: 60px;
   margin-bottom: 120px;
+  max-width: 260px;
 }
 
 .info-card__head {
@@ -178,13 +178,14 @@ button {
   width: 100%;
   display: block;
   background-color: #F9F9F9;
-  margin: 120px auto 0;
+  margin: auto 0;
 }
 
 .information__title {
   color: #141024;
   font-size: 50px;
   font-weight: 600;
+  padding-top: 100px;
 }
 
 .information__desc {
@@ -196,12 +197,14 @@ button {
 .information-card {
   margin-top: 60px;
   margin-bottom: 100px;
+  max-width: 360px;
 }
 
 .information-card__head {
   color: #141024;
   font-size: 24px;
   font-weight: 600;
+  padding-bottom: 20px;
 }
 
 .information-card__text {
@@ -212,6 +215,92 @@ button {
 }
 
 .container {
-  max-width: 1190px;
+  max-width: 1750px;
   width: 100%;
+  padding-left: 270px;
+  padding-right: 270px;
+}
+
+.person {
+  width: 100%;
+}
+
+.person__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  margin-top: 60px;
+}
+
+.person__card {
+  max-width: 360px;
+  width: 100%;
+}
+
+.person__img {
+  -o-object-position: center;
+     object-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.person__info {
+  display: block;
+}
+
+.person__name {
+  color: #141024;
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.person__subtitle {
+  color: rgba(20, 16, 36, 0.7);
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.product {
+  width: 100%;
+}
+
+.product__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.product__card {
+  max-width: 360px;
+  width: 100%;
+  display: block;
+  text-align: center;
+  margin-top: 60px;
+  border-radius: 20px;
+  border: 1px solid rgba(20, 16, 36, 0.2);
+  padding-top: 40px;
+}
+
+.product__name {
+  color: #141024;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.product__price {
+  color: #141024;
+  font-size: 50px;
+  font-weight: 600;
+  margin-top: 83px;
+}
+
+.product__info {
+  color: #141024;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 52px;
 }/*# sourceMappingURL=style.css.map */

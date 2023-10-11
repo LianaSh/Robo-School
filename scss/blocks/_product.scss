@@ -1,0 +1,41 @@
+.product {
+    width: 100%;
+}
+
+.product__list {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 40px;
+}
+
+.product__card {
+    max-width: 360px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-top: 60px;
+    border-radius: 20px;
+    border: 1px solid rgba(20, 16, 36, 0.20);
+    padding-top: 40px;
+}
+
+.product__name {
+    color: #141024;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.product__price {
+    color: #141024;
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 83px;
+}
+
+.product__info {
+    color: #141024;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 52px;
+}
