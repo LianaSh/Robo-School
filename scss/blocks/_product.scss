@@ -11,12 +11,13 @@
 .product__card {
     max-width: 360px;
     width: 100%;
-    display: block;
+    display: flex;
+    flex-direction: column;
     text-align: center;
     margin-top: 60px;
     border-radius: 20px;
     border: 1px solid rgba(20, 16, 36, 0.20);
-    padding-top: 40px;
+    padding: 40px ;
 }
 
 .product__name {
@@ -38,4 +39,10 @@
     font-weight: 400;
     margin-top: 20px;
     margin-bottom: 52px;
+}
+
+.product__btn {
+    width: 280px;
+    height: 79px;
+    margin-top: auto;
 }
