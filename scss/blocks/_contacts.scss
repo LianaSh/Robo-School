@@ -1,0 +1,26 @@
+.contacts {
+    background-color: #D52027;
+    display: flex;
+    padding-top: 87px;
+}
+
+.contacts-desc {
+    display: block;
+    align-items: center;
+    max-width: 440px;
+    margin-right: 60px;
+}
+
+.contacts-desk__title {
+    color: #FFFFFF;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 130%;
+    padding-bottom: 20px;
+}
+
+.contacts-desc__subtitle {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 400;
+}
