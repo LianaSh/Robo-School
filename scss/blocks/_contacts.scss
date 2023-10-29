@@ -1,7 +1,15 @@
 .contacts {
     background-color: #D52027;
+    padding: 87px 0;
+    background-image: url(../image/img/contacts.svg);
+    background-repeat: repeat-x;
+    background-position: bottom;
+}
+
+.contacts__inner {
     display: flex;
-    padding-top: 87px;
+    justify-content: space-between;
+    gap: 20px;
 }
 
 .contacts-desc {
@@ -23,4 +31,25 @@
     color: #FFFFFF;
     font-size: 20px;
     font-weight: 400;
+}
+
+.form {
+    max-width: 500px;
+    width: 100%;
+}
+
+.input {
+    width: 100%;
+    display: block;
+    padding: 22px 20px;
+    margin-bottom: 10px;
+    border: none;
+}
+
+.submit {
+    width: 100%;
+    padding: 22px 20px;
+    border: none;
+    background-color: #141024;
+    color: #FFFFFF;
 }
