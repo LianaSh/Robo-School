@@ -1,6 +1,5 @@
 .contacts {
     background-color: #D52027;
-    padding: 87px 0;
     background-image: url(../image/img/contacts.svg);
     background-repeat: repeat-x;
     background-position: bottom;
@@ -10,6 +9,7 @@
     display: flex;
     justify-content: space-between;
     gap: 20px;
+    padding: 87px 0;
 }
 
 .contacts-desc {

@@ -141,7 +141,6 @@ button {
   width: 100%;
   display: block;
   background-color: #FFFFFF;
-  margin: 120px auto 0;
 }
 
 .info__title {
@@ -159,7 +158,6 @@ button {
 
 .info-card {
   margin-top: 60px;
-  margin-bottom: 120px;
   max-width: 260px;
 }
 
@@ -220,11 +218,21 @@ button {
   max-width: 1190px;
   width: 100%;
   padding: 0 15px;
-  margin: 0 auto;
+  margin: 120px auto;
+}
+
+.container:last-child {
+  margin-bottom: 0;
 }
 
 .person {
   width: 100%;
+}
+
+.person__title {
+  color: #141024;
+  font-size: 50px;
+  font-weight: 600;
 }
 
 .person__list {
@@ -286,6 +294,18 @@ button {
   border: 1px solid rgba(20, 16, 36, 0.2);
   padding: 40px;
 }
+.product__card:hover {
+  background-color: #141024;
+}
+.product__card:hover .product__name {
+  color: #FFF;
+}
+.product__card:hover .product__price {
+  color: #FFF;
+}
+.product__card:hover .product__info {
+  color: #FFF;
+}
 
 .product__name {
   color: #141024;
@@ -316,7 +336,6 @@ button {
 
 .contacts {
   background-color: #D52027;
-  padding: 87px 0;
   background-image: url(../image/img/contacts.svg);
   background-repeat: repeat-x;
   background-position: bottom;
@@ -326,6 +345,7 @@ button {
   display: flex;
   justify-content: space-between;
   gap: 20px;
+  padding: 87px 0;
 }
 
 .contacts-desc {
@@ -368,4 +388,21 @@ button {
   border: none;
   background-color: #141024;
   color: #FFFFFF;
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 30px 15px;
+  align-items: center;
+  background-color: #141024;
+}
+
+.logo__name {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  padding-top: 5px;
 }/*# sourceMappingURL=style.css.map */

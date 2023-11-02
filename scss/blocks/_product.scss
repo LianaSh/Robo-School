@@ -18,7 +18,20 @@
     border-radius: 20px;
     border: 1px solid rgba(20, 16, 36, 0.20);
     padding: 40px;
+    &:hover {
+        background-color: #141024;
+    }
+    &:hover .product__name {
+        color: #FFF;
+    }
+    &:hover .product__price {
+        color: #FFF;
+    }
+    &:hover .product__info {
+        color: #FFF;
+    }
 }
+
 
 .product__name {
     color: #141024;
