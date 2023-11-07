@@ -1,0 +1,90 @@
+.person-modal {
+    max-width: 940px;
+    width: 100%;
+    padding: 40px;
+}
+
+.person-modal__head {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.person-modal__image {
+    width: 160px;
+    height: 222px;
+    object-position: center;
+    object-fit: cover;
+}
+
+.person-modal__name {
+    display: block;
+    margin-left: 40px;
+}
+
+.person-modal__title {
+    color: #141024;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 160%;
+}
+
+.person-modal__subtitle {
+    color: rgba(20, 16, 36, 0.70);
+    font-size: 18px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.person-modal__icon {
+    display: flex;
+}
+
+.person__icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.person-modal__tabs {
+    display: flex;
+}
+
+.person-modal__tab {
+    margin-right: 180px;
+    color: rgba(20, 16, 36, 0.20);
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+    &:hover {
+        color:  #141024;
+    }
+    &.active {
+        color: #D52027; 
+    }
+}
+
+
+
+.line {
+    background-color: rgba(20, 16, 36, 0.11);
+    height: 1px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.person-modal__desc {
+    margin-top: 20px;
+}
+
+.person-modal__info {
+    color: #141024;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.person-modal__heading {
+    color: #141024;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 40px 0 20px 0;
+}
