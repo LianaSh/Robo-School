@@ -496,4 +496,15 @@ button {
   font-size: 24px;
   font-weight: 600;
   margin: 40px 0 20px 0;
+}
+
+.bg {
+  background-color: rgba(20, 16, 36, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 100;
+  display: none;
 }/*# sourceMappingURL=style.css.map */
