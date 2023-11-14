@@ -273,6 +273,16 @@ button {
   margin-bottom: 20px;
 }
 
+.slider {
+  display: flex;
+  justify-content: center;
+}
+
+.slider__arrow {
+  width: 33px;
+  height: 33px;
+}
+
 .product {
   width: 100%;
 }
