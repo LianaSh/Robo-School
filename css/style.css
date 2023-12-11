@@ -53,6 +53,20 @@ body {
   text-decoration: none;
 }
 
+.burger {
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+  border: 1px solid #FFF;
+  background-color: rgba(255, 255, 255, 0.08);
+  opacity: 0.4;
+}
+@media (min-width: 1024px) {
+  .burger {
+    display: none;
+  }
+}
+
 .tel {
   color: #fff;
   font-size: 30px;
@@ -64,6 +78,26 @@ body {
   .tel {
     display: block;
   }
+}
+
+.tel-mobile {
+  width: 44px;
+  height: 44px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #FFF;
+  background-color: rgba(255, 255, 255, 0.08);
+  opacity: 0.4;
+}
+@media (min-width: 1024px) {
+  .tel-mobile {
+    display: none;
+  }
+}
+
+.mobile {
+  width: 24px;
+  height: 24px;
 }
 
 .mainscreen {

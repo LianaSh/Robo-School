@@ -10,3 +10,22 @@
     display: block;
   }
 }
+
+.tel-mobile {
+  width: 44px;
+  height: 44px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid  #FFF;
+  background-color: rgba(255, 255, 255, 0.08);
+  opacity: 0.4;
+
+  @media (min-width: 1024px) {
+    display: none;
+  }
+}
+
+.mobile {
+  width: 24px;
+  height: 24px;
+}
