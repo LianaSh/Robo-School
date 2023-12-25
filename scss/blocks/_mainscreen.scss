@@ -1,76 +1,122 @@
 .mainscreen {
   background-color: #141024;
   margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  gap: 28px;
-  position: relative;
+  display: block;
+  // position: relative;
+  flex-direction: column;
   //   height: 100vh;
-  height: 1080px;
+
+  @media (min-width: 1024px) {
+    display: flex;
+    justify-content: space-between;
+    gap: 28px;
+    // height: 1080px;
+  }
 }
 
 .mainscreen__content {
   display: block;
-  margin: 344px auto 0;
-  max-width: 1160px;
+  max-width: 300px;
   width: 100%;
+
+  @media (min-width: 1024px) {
+    max-width: 1160px;
+    margin: 344px auto 0;
+  }
 }
 
 .mainscreen__desc {
-  max-width: 516px;
+  max-width: 300px;
+  bottom: 20px;
+
+  @media (min-width: 1024px) {
+   max-width: 516px;
+  }
 }
 
 .mainscreen__title {
   color: #fff;
-  font-size: 70px;
+  font-size: 30px;
   font-weight: 600;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
+ 
+  @media (min-width: 1024px) {
+    font-size: 70px;
+    font-weight: 600;
+    padding-bottom: 20px;
+  }
 }
 
 .mainscreen__text {
   color: #fff;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 400;
-  padding-bottom: 50px;
   line-height: 160%;
+
+  @media (min-width: 1024px) {
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 50px;
+    line-height: 160%;
+  }
 }
 
 .mainscreen__btn {
-  width: 260px;
-  height: 79px;
+  width: 300px;
+  height: 60px;
   background-color: #d52027;
   align-items: center;
   color: #fff;
-  font-size: 18px;
-  font-weight: 400;
+  
+  @media (min-width: 1024px) {
+    width: 260px;
+    height: 79px;
+    font-size: 18px;
+    font-weight: 400;
+  }
 }
 
 .mainscreen-img {
-  width: 783px;
-  height: 917px;
-  position: absolute;
+  width: 273px;
+  height: 273px;
   bottom: 0;
-  right: 15px;
+
+  @media (min-width: 1024px) {
+  position: absolute;
+    width: 783px;
+    height: 917px;
+    right: 15px;
+  }
 }
 
 .mainscreen-img__bg {
-  width: 783px;
-  height: 783px;
+  width: 273px;
+  height: 273px;
   position: absolute;
   object-position: center;
   object-fit: cover;
   top: 50%;
   left: 0;
   transform: translateY(-45%);
+
+  @media (min-width: 1024px) {
+    width: 783px;
+    height: 783px;
+  }
 }
 
 .mainscreen-img__front {
-  width: 515px;
-  height: 917px;
+  width: 180px;
+  height: 320px;
   position: absolute;
   object-position: center;
   object-fit: cover;
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
+
+  @media (min-width: 1024px) {
+    width: 515px;
+    height: 917px;
+  }
 }
