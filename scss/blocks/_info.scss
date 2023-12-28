@@ -1,40 +1,71 @@
 .info {
-    // max-width: 1190px;
-    width: 100%;
-    display: block;
-    background-color: #FFFFFF;
-    // text-align: center;
+   width: 100%;
+   display: block;
+    
+    @media (min-width: 1024px) {
+        width: 100%;
+        display: block;
+        background-color: #FFFFFF;
+    }
 }
 
 .info__title {
     color: #141024;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 600;
     line-height: 160%;
+
+    @media (min-width: 1024px) {
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 160%;
+    }
 }
 
 .info__desc {
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
+    display: block; 
+    text-align: center;
+
+    @media (min-width: 1024px) {
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
     // justify-content: space-between;
-    gap: 30px;
+        gap: 30px;
+    }
 }
 
 .info-card {
-    margin-top: 60px;
+    margin-top: 40px;
+    // max-width: 250px;
+    width: 100%;
+    padding: 0 15px;
+
+    @media (min-width: 1024px) {
+        margin-top: 60px;
     // margin-bottom: 120px;
-    max-width: 260px;
+        max-width: 260px;
+    }
 }
 
 .info-card__head {
     color: #D52027;
-    font-size: 70px;
+    font-size: 60px;
     font-weight: 600;
+
+    @media (min-width: 1024px) {
+        font-size: 70px;
+        font-weight: 600;
+    }
 }
 
 .info-card__text {
     color: rgba(20, 16, 36, 0.70);
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 160%;
+
+    @media (min-width: 1024px) {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 160%;
+    }
 }

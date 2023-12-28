@@ -1,8 +1,15 @@
 .container {
-    max-width: 1190px;
+    max-width: 320px;
     width: 100%;
-    padding: 0 15px;
-    margin: 120px auto;
+    padding: 60px 10px 0;
+    margin: 0 auto;
+
+    @media (min-width: 1024px) {
+        max-width: 1190px;
+        width: 100%;
+        padding: 0 15px;
+        margin: 120px auto;
+    }
 }
 
 .container:last-child {
