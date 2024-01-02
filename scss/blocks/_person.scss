@@ -1,11 +1,22 @@
 .person {
     width: 100%;
+
+     @media (min-width: 1024px) {
+        width: 100%;
+    }
 }
 
 .person__title {
     color: #141024;
-    font-size: 50px;
+    font-size: 30px;
     font-weight: 600;
+    text-align: center;
+
+    @media (min-width: 1024px) {
+        color: #141024;
+        font-size: 50px;
+        font-weight: 600;
+    }
 }
 
 .person__list {

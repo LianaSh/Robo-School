@@ -3,38 +3,75 @@
     width: 100%;
     display: block;
     background-color: #F9F9F9;
-    margin: auto 0;
+
+    @media (min-width: 1024px) {
+        width: 100%;
+        display: block;
+        background-color: #F9F9F9;
+        margin: auto 0;
+    }
 }
 
 .information__title {
-    color: #141024;
-    font-size: 50px;
+    font-size: 30px;
     font-weight: 600;
-    padding-top: 100px; 
+    text-align: center;
+
+    @media (min-width: 1024px) {
+        color: #141024;
+        font-size: 50px;
+        font-weight: 600;
+        padding-top: 100px; 
+    }
 }
 
 .information__desc {
-    display: flex;
-    justify-content: space-between;
-    gap: 40px;
+    display: block;
+    text-align: center;
+
+    @media (min-width: 1024px) {
+        display: flex;
+        justify-content: space-between;
+        gap: 40px;
+    }
 }
 
 .information-card {
-    margin-top: 60px;
-    margin-bottom: 100px;
-    max-width: 360px;
+    padding-top: 40px;
+    padding-bottom: 52px;
+    width: 100%;
+
+    @media (min-width: 1024px) {
+        margin-top: 60px;
+        margin-bottom: 100px;
+        max-width: 360px;    
+    }
 }
 
 .information-card__head {
     color: #141024;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 600;
-    padding-bottom: 20px;
+    margin-bottom: 10px;
+
+    @media (min-width: 1024Px) {
+        color: #141024;
+        font-size: 24px;
+        font-weight: 600;
+        padding-bottom: 20px;
+    }
 }
 
 .information-card__text {
     color: rgba(20, 16, 36, 0.70);
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 160%;
+
+    @media (min-width: 1024px) {
+        color: rgba(20, 16, 36, 0.70);
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 160%;
+    }
 }

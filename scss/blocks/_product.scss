@@ -1,11 +1,16 @@
 .product {
     width: 100%;
+
 }
 
 .product__list {
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 40px;
+    display: block;
+
+    @media (min-width: 1024px) {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 40px;
+    }
 }
 
 .product__card {
