@@ -17,21 +17,9 @@
   }
 }
 
-.logo {
+.heager__logo {
   margin-right: 10px;
-  
-  @media (min-width: 1024px) {
-  }
-}
 
-.logo__img {
-  width: 136px;
-  height: 29px;
-
-  @media (min-width: 1024px) {
-    width: 228px;
-    height: 48px;
-  }
 }
 
 .nav {
@@ -80,6 +68,14 @@
     font-size: 20px;
     font-weight: 400;
     text-decoration: none;
+  }
+}
+
+.header__tel {
+  display: none;
+
+  @media (min-width: 1024px) {
+    display: block;
   }
 }
 
