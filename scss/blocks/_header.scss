@@ -13,7 +13,7 @@
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
-    padding: 30px 15px;
+    padding: 30px 100px;
     position: absolute;
   }
 }
@@ -40,7 +40,15 @@
   }
   @media (min-width: 1024px) {
     display: flex; 
+    width: auto;
+    height: auto;
+    flex-direction: row;
+    justify-content: space-between;
     gap: 40px;
+    align-items: center;
+    position: initial;
+    padding-left: 100px;
+    padding-right: 100px;
   }
 }
 
@@ -55,6 +63,10 @@
   margin-left: auto;
   margin-right: 0;
   margin-bottom: 130px;
+
+  @media (min-width: 1024px) {
+    display: none;
+  }
 }
 
 .nav__link {
@@ -69,6 +81,7 @@
     font-size: 20px;
     font-weight: 400;
     text-decoration: none;
+    margin: 0 auto;
   }
 }
 
